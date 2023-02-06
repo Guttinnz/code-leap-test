@@ -12,7 +12,7 @@ OBS: Teste de Título com mais de 100 caracteres e Conteúdo com mais de 500 car
 
 **Link para ver os testes rodando:** <a href="">clique aqui</a>.
 
-# História de Usuário: Ao acessar a aplicação, eu quero adicionar meu username para realizar o login no sistema
+## História de Usuário: Ao acessar a aplicação, eu quero adicionar meu username para realizar o login no sistema
 OBS: Dados critérios de regra de negócio não é necessário ter conta cadastrada previamente e possuir senha
 Sugestão de melhoria: Implementar cadastro de usuário para criar validações de login e agregar segurança
 
@@ -29,7 +29,7 @@ E clico no botão "Enter"
 Então uma mensagem de erro é exibida informando que o Username não pode ser vazio
 E o campo é obrigatório
 
-# História de Usuário: Ao acessar a tela de criação de post, eu quero ver uma mensagem de erro se algum campo obrigatório não estiver preenchido. Quando todos os campos estiverem corretos, eu gostaria de clicar no botão "Criar" e ver meu post publicado na tela do feed.
+## História de Usuário: Ao acessar a tela de criação de post, eu quero ver uma mensagem de erro se algum campo obrigatório não estiver preenchido. Quando todos os campos estiverem corretos, eu gostaria de clicar no botão "Criar" e ver meu post publicado na tela do feed.
 
 **Cenário: Campos obrigatórios para cadastro de post**
 Dado que acesso a página de feed
@@ -56,7 +56,7 @@ E eu preencho o campo "Content" com ""
 E clico no botão "Create"
 Então uma mensagem de erro é exibida informando que o conteúdo não pode ser vazio
 
-# História de Usuário: Como usuário, quero verificar se o conteúdo de um post na rede social está sendo exibido corretamente sem estouro de caracteres, para ter uma experiência satisfatória na leitura dos posts.
+## História de Usuário: Como usuário, quero verificar se o conteúdo de um post na rede social está sendo exibido corretamente sem estouro de caracteres, para ter uma experiência satisfatória na leitura dos posts.
 
 **Cenário: Título com mais de 100 caracteres**
 Dado que eu esteja na página de feed
@@ -68,7 +68,7 @@ Dado que eu esteja na página de feed
 Quando eu inserir um conteúdo com mais de 500 caracteres
 Então o sistema deve exibir uma mensagem de erro informando que o conteúdo ultrapassou o limite de caracteres
 
-# História de Usuário: Como usuário, eu quero ser capaz de editar e excluir os meus próprios posts para manter atualizado o conteúdo que compartilhei na plataforma e impedir que outros usuários façam modificações indevidas em meus posts.
+## História de Usuário: Como usuário, eu quero ser capaz de editar e excluir os meus próprios posts para manter atualizado o conteúdo que compartilhei na plataforma e impedir que outros usuários façam modificações indevidas em meus posts.
 
 **Cenário: Abrir modal de edição ao acessar o post**
 Dado que eu acessei a página "feed" da rede social
@@ -98,7 +98,7 @@ Dado que eu esteja logado como um usuário não autorizado
 Quando eu clico em "Excluir" em um post que não foi escrito por mim
 Então eu recebo uma mensagem de erro indicando que não tenho permissão para excluir o post
 
-# História de Usuário: Como usuário, eu quero visualizar um post que não se encontra na mesma página que estou, para isso é necessário utilizar a paginação até eu encontrar
+## História de Usuário: Como usuário, eu quero visualizar um post que não se encontra na mesma página que estou, para isso é necessário utilizar a paginação até eu encontrar
 **Cenário: Verificar se a paginação está funcionando corretamente**
 Dado que eu estou na página inicial do aplicativo
 Quando eu clicar na opção de paginação para a próxima página
