@@ -8,7 +8,7 @@ Abaixo segue os cases de teste/histórias de usuário que foram montadas para es
 
 Testes de níveis de regressão, dados para carga de teste obtidos através do DOM, com a proposta de stress, erros, validações de campos e casos de funcionalidades do app, para teste de API ViaCep utiliza-se de mock.
 
-OBS: Teste de Título com mais de 100 caracteres e Conteúdo com mais de 500 caracteres realmente é para falhar!!
+OBS: Teste de Título com mais de 100 caracteres e Conteúdo com mais de 500 caracteres realmente é para falhar, pois não existe mensagem de validação para cada um dos campos!!
 
 **Link para ver os testes rodando:** <a href="">clique aqui</a>.
 
