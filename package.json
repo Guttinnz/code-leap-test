@@ -1,0 +1,14 @@
+{
+  "name": "teste-automatizado-codeleap",
+  "version": "1.0.0",
+  "description": "Teste Code Leap",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "Gustavo Bueno",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.5.0"
+  }
+}
